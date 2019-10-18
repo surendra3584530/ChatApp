@@ -16,7 +16,7 @@ const url = "mongodb://127.0.0.1:27017/records"
 
 //connect to mongo
 mongoose.connect(url,{ useNewUrlParser: true})
-      .then(() => console.log("Mongodb connect sucessfully...."))
+      .then(() => console.log("Mongodb connect sucessfully ok...."))
       .catch(err => console.log(err));
 
 //EJS
